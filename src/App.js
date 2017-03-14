@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Info from './components/info/Info.jsx'
-import logo from './logo.svg';
+import PersonalInfo from './components/personalinfo/PersonalInfo.jsx';
 import './App.css';
 
 class App extends Component {
@@ -8,6 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <Info />
+        <PersonalInfo />
       </div>
     );
   }
