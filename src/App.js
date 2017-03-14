@@ -6,6 +6,7 @@ import Project from './components/project/Project.jsx';
 import Dicon from './images/64x64icon.png';
 import Education from './components/education/Education.jsx';
 import Hobby from './components/hobby/Hobby.jsx';
+import Footer from './components/footer/Footer.jsx';
 import './App.css';
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
         <Project image={Dicon} alt="default image"/>
         <Education />
         <Hobby />
+        <Footer />
       </div>
     );
   }

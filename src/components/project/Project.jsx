@@ -10,6 +10,7 @@ class Project extends Component {
         <div className="project-intro">
               <h2>Clicker Do</h2>
               <h5>a long project to build great things.</h5>
+              <a href="https://www.google.com">click me </a>
         </div>
       </div>
     );
