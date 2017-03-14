@@ -4,6 +4,7 @@ import PersonalInfo from './components/personalinfo/PersonalInfo.jsx';
 import WorkHistory from './components/workhistory/WorkHistory.jsx';
 import Project from './components/project/Project.jsx';
 import Dicon from './images/64x64icon.png';
+import Education from './components/education/Education.jsx';
 import './App.css';
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
         <PersonalInfo />
         <WorkHistory />
         <Project image={Dicon} alt="default image"/>
+        <Education />
       </div>
     );
   }
