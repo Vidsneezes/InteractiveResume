@@ -1,0 +1,14 @@
+.info{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color:  rebeccapurple;
+}
+
+.info div {
+    display: inline-block;
+}
+
+.info-image {
+    padding-right: 50%;
+}
