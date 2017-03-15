@@ -2,5 +2,10 @@
     background: floralwhite;
     width: 400px;
     border: 2px solid ghostwhite;
-    margin: 12px 0px;
+    margin: 0px 0px 6px;
+    box-shadow: 0px 4px 2px slateblue;
+}
+
+.page-intro {
+    font-size: 1.6em;
 }

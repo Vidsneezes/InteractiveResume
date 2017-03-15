@@ -17,19 +17,19 @@ class App extends Component {
         <Page title="Info">
           <Info />
         </Page>
-        <Page>
+        <Page title="Pesonal Info">
           <PersonalInfo />
         </Page>
-        <Page>
+        <Page title="Work History">
           <WorkHistory />
         </Page>
-        <Page>
+        <Page title="Projects">
           <Project image={Dicon} alt="default image"/>
         </Page>
-        <Page>
+        <Page title="Education">
           <Education />
         </Page>
-        <Page>
+        <Page title="Hobbies">
           <Hobby />
         </Page>
         <Page>
