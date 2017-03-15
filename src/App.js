@@ -7,6 +7,7 @@ import Dicon from './images/64x64icon.png';
 import Education from './components/education/Education.jsx';
 import Hobby from './components/hobby/Hobby.jsx';
 import Footer from './components/footer/Footer.jsx';
+import Page from './components/page/Page.jsx';
 import './App.css';
 
 class App extends Component {
