@@ -14,7 +14,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Info />
+        <Page>
+          <Info />
+        </Page>
         <PersonalInfo />
         <WorkHistory />
         <Project image={Dicon} alt="default image"/>
