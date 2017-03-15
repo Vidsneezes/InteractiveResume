@@ -17,12 +17,24 @@ class App extends Component {
         <Page title="Info">
           <Info />
         </Page>
-        <PersonalInfo />
-        <WorkHistory />
-        <Project image={Dicon} alt="default image"/>
-        <Education />
-        <Hobby />
-        <Footer />
+        <Page>
+          <PersonalInfo />
+        </Page>
+        <Page>
+          <WorkHistory />
+        </Page>
+        <Page>
+          <Project image={Dicon} alt="default image"/>
+        </Page>
+        <Page>
+          <Education />
+        </Page>
+        <Page>
+          <Hobby />
+        </Page>
+        <Page>
+          <Footer />
+        </Page>
       </div>
     );
   }
