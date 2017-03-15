@@ -1,6 +1,5 @@
 .App {
-    float: left;
-    margin: 0px;
-    
+    width: 400px;
+    margin: 0px auto;
 }
 

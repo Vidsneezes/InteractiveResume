@@ -2,10 +2,16 @@
     background: floralwhite;
     width: 400px;
     border: 2px solid ghostwhite;
-    margin: 0px 0px 6px;
-    box-shadow: 0px 4px 2px slateblue;
+    margin: 0px 0px 12px;
+    box-shadow: 0px 4px 15px mediumseagreen;
 }
 
 .page-intro {
+    margin: 0px;
+    padding: 0px;
     font-size: 1.6em;
+}
+
+.page-intro h2 {
+    margin: 4px 0px 10px;
 }

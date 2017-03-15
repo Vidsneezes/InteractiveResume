@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <Page title="Info">
-          <Info />
+          <Info image={Dicon} />
         </Page>
         <Page title="Pesonal Info">
           <PersonalInfo />

@@ -5,7 +5,7 @@ class Info extends Component {
   render() {
     return (
       <div className="info">
-        <div className="info-image"><span>Hello</span></div>
+        <div className="info-image"> <img src={this.props.image} alt={this.props.alt} /></div>
         <div>
             <h1> Oscar Morales </h1>
             <h4> 14 calle 13-56 planes minerva </h4>
