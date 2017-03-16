@@ -3,12 +3,12 @@ import './Info.css';
 
 class Info extends Component {
   render() {
-    let info = this.props.info;
+    let info = this.props.data;
     if(info){
-      if(info.fulladdress === null){
+      if(info.fulladdress === ""){
         info.fulladdress = "missing";
       }
-      if(info.fullname === null){
+      if(info.fullname === ""){
         info.fullname = "missing";
       }
     }

@@ -1,8 +1,15 @@
 {
     "info":{
-        "profileImagePath":"default",
+        "profileImagePath":"",
         "fullname":"Oscar Morales",
         "fulladdress":"14 calle 13-56 planes de minerva"
+    },
+    "personalinfo":{
+        "shortbio":"Hello my className is oscar moresl, i'm a front end developer with a background in gamedesign/developmenet. Welcome to my resume here you will find",
+        "socialmedia":{ 
+            "github":"",
+            "twitter":"https://twitter.com/Moraleszez"
+        }
     },
     "weirdWord":"okabe"
 }

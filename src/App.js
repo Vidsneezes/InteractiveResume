@@ -16,17 +16,23 @@ class App extends Component {
     let info = null;
     if(Resume.info){
       info = (
-        <Info image={Dicon} info={Resume.info} />
+        <Info image={Dicon} data={Resume.info} />
       );
     }
 
+    let personalinfo = null;
+    if(Resume.personalinfo){
+      personalinfo = (
+         <PersonalInfo data={Resume.personalinfo} />
+      );
+    }
     return (
       <div className="App">
         <Page title="Info">
           {info}
         </Page>
         <Page title="Pesonal Info">
-          <PersonalInfo />
+          {personalinfo};
         </Page>
         <Page title="Work History">
           <WorkHistory />
