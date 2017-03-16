@@ -9,13 +9,22 @@ import Hobby from './components/hobby/Hobby.jsx';
 import Footer from './components/footer/Footer.jsx';
 import Page from './components/page/Page.jsx';
 import './App.css';
+import Resume from './resume.json';
 
 class App extends Component {
   render() {
+    let info = null;
+    if(Resume.info){
+      info = (
+        <Info image={Dicon} fullname={Resume.info.fullname} fulladdress={Resume.info.fulladdress} />
+      );
+    }else{
+        <Info image={Dicon} fullname="missing" fulladdress="missing" />
+    }
     return (
       <div className="App">
         <Page title="Info">
-          <Info image={Dicon} />
+          {info}
         </Page>
         <Page title="Pesonal Info">
           <PersonalInfo />
