@@ -14,7 +14,6 @@ class PersonalInfo extends Component {
         counter++;
       }      
     }
-
     return (
       <div className="personalinfo">
         <div className="personalinfo-intro"><p>Hello my className is oscar moresl, i'm a front end developer with a background
