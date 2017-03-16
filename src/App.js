@@ -9,7 +9,7 @@ import Footer from './components/footer/Footer.jsx';
 import Page from './components/page/Page.jsx';
 import './App.css';
 import Resume from './resume.json';
-import Images from './assets.js';
+import Images from './Images.js';
 
 class App extends Component {
   render() {

@@ -3,13 +3,15 @@ import React, { Component } from 'react';
 class PersonalInfo extends Component {
   render() {
     let personalinfo = this.props.data;
-    let socialMedia = null;
+    let socialMedia = [];
     if(personalinfo){
       if(personalinfo.shortbio === ""){
         personalinfo.shortbio = "missing";
       }
+      var counter = 0;
       for(var keys in personalinfo.socialmedia){
-        console.log(keys);
+        socialMedia.push(<a key={counter} href={personalinfo.socialmedia[keys]}>{keys}</a>);
+        counter++;
       }      
     }
 
@@ -19,7 +21,7 @@ class PersonalInfo extends Component {
           in gamedesign/developmenet. Welcome to my resume here you will find</p>
         </div>
         <div>
-          <a href="#personalinfo">click me </a>
+          {socialMedia}
         </div>
       </div>
     );
