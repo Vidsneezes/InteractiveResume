@@ -9,12 +9,12 @@ class WorkHistory extends Component {
          return( 
           <div className="workhistory-intro">
             <span>
-              <h2>Cracker Barrel</h2>
-              <h3>Server</h3>
+              <h2>{item.workplace}</h2>
+              <h3>{item.position}</h3>
             </span>
-            <h6>September 2013-October 2015</h6>
+            <h6>{item.startdate}-{item.enddate}</h6>
             <div>
-              <p>Main duty involved serving customers and cleaning tables</p>
+              <p>{item.jobdes}</p>
             </div>
           </div>
          );
@@ -22,16 +22,7 @@ class WorkHistory extends Component {
     }
     return (
       <div className="workhistory">
-        <div className="workhistory-intro">
-            <span>
-                <h2>Cracker Barrel</h2>
-                <h3>Server</h3>
-            </span>
-            <h6>September 2013-October 2015</h6>
-        </div>
-        <div>
-            <p>Main duty involved serving customers and cleaning tables</p>
-        </div>
+        {workTable}
       </div>
     );
   }

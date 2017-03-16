@@ -19,6 +19,20 @@
                 "startdate":"September 2016",
                 "enddate":"October 2016",
                 "jobdes":"Main duty involved serving customers and cleaning tables"
+            },
+            {
+                "workplace":"Rhosigma",
+                "position":"Game Programmer",
+                "startdate":"September 2016",
+                "enddate":"October 2016",
+                "jobdes":"Build tools and developed a digital card game"
+            },
+            {
+                "workplace":"Self",
+                "position":"Indie Dev",
+                "startdate":"September 2016",
+                "enddate":"October 2016",
+                "jobdes":"Released my own games"
             }
         ]
     },

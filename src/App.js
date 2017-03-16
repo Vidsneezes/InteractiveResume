@@ -35,7 +35,7 @@ class App extends Component {
           {personalinfo};
         </Page>
         <Page title="Work History">
-          <WorkHistory />
+          <WorkHistory workHistory={Resume.workhistory} />
         </Page>
         <Page title="Projects">
           <Project image={Dicon} alt="default image"/>
