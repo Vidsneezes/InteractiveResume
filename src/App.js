@@ -16,11 +16,10 @@ class App extends Component {
     let info = null;
     if(Resume.info){
       info = (
-        <Info image={Dicon} fullname={Resume.info.fullname} fulladdress={Resume.info.fulladdress} />
+        <Info image={Dicon} info={Resume.info} />
       );
-    }else{
-        <Info image={Dicon} fullname="missing" fulladdress="missing" />
     }
+
     return (
       <div className="App">
         <Page title="Info">
