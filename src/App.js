@@ -26,16 +26,23 @@ class App extends Component {
          <PersonalInfo data={Resume.personalinfo} />
       );
     }
+    
+    let workhistory = null;
+    if(Resume.workhistory){
+      workhistory = (
+          <WorkHistory workHistory={Resume.workhistory} />
+      );
+    }
     return (
       <div className="App">
         <Page title="Info">
           {info}
         </Page>
         <Page title="Pesonal Info">
-          {personalinfo};
+          {personalinfo}
         </Page>
         <Page title="Work History">
-          <WorkHistory workHistory={Resume.workhistory} />
+          {workhistory}
         </Page>
         <Page title="Projects">
           <Project image={Dicon} alt="default image"/>
