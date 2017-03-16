@@ -7,7 +7,7 @@ class WorkHistory extends Component {
     if(workhistory){
        workTable = workhistory.work.map((item, i) => {
          return( 
-          <div className="workhistory-intro">
+          <div key={i} className="workhistory-intro">
             <span>
               <h2>{item.workplace}</h2>
               <h3>{item.position}</h3>

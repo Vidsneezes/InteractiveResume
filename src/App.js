@@ -3,7 +3,7 @@ import Info from './components/info/Info.jsx'
 import PersonalInfo from './components/personalinfo/PersonalInfo.jsx';
 import WorkHistory from './components/workhistory/WorkHistory.jsx';
 import Project from './components/project/Project.jsx';
-import Dicon from './images/64x64icon.png';
+import DefaultImage from './images/default.png';
 import Education from './components/education/Education.jsx';
 import Hobby from './components/hobby/Hobby.jsx';
 import Footer from './components/footer/Footer.jsx';
@@ -16,7 +16,7 @@ class App extends Component {
     let info = null;
     if(Resume.info){
       info = (
-        <Info image={Dicon} data={Resume.info} />
+        <Info image={DefaultImage} data={Resume.info} />
       );
     }
 
@@ -45,7 +45,7 @@ class App extends Component {
           {workhistory}
         </Page>
         <Page title="Projects">
-          <Project image={Dicon} alt="default image"/>
+          <Project image={DefaultImage} alt="default image"/>
         </Page>
         <Page title="Education">
           <Education />
