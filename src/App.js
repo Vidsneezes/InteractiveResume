@@ -3,20 +3,21 @@ import Info from './components/info/Info.jsx'
 import PersonalInfo from './components/personalinfo/PersonalInfo.jsx';
 import WorkHistory from './components/workhistory/WorkHistory.jsx';
 import Project from './components/project/Project.jsx';
-import DefaultImage from './images/default.png';
 import Education from './components/education/Education.jsx';
 import Hobby from './components/hobby/Hobby.jsx';
 import Footer from './components/footer/Footer.jsx';
 import Page from './components/page/Page.jsx';
 import './App.css';
 import Resume from './resume.json';
+import Images from './assets.js';
 
 class App extends Component {
   render() {
     let info = null;
+    let images = Images();
     if(Resume.info){
       info = (
-        <Info image={DefaultImage} data={Resume.info} />
+        <Info image={images["default"]} data={Resume.info} />
       );
     }
 
@@ -45,7 +46,7 @@ class App extends Component {
           {workhistory}
         </Page>
         <Page title="Projects">
-          <Project image={DefaultImage} alt="default image"/>
+          <Project image={images["default"]} alt="default image"/>
         </Page>
         <Page title="Education">
           <Education />
