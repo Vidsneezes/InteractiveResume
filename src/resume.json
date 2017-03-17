@@ -50,5 +50,13 @@
             "image": "project2"
         }
     ],
+    "education":[
+        {
+            "name":"University of La",
+            "degree":"B.A. Computer Science",
+            "startDate":"September 2011",
+            "endDate":"April 2015"
+        }
+    ],
     "weirdWord":"okabe"
 }
