@@ -41,6 +41,7 @@ class App extends Component {
         <Project projects={Resume.projects} alt="default image"/>
       );
     }
+
     return (
       <div className="App">
         <Page title="Info">
