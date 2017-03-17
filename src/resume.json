@@ -42,6 +42,12 @@
             "description":"a long project to build great things",
             "link":"https://www.google.com",
             "image": "project1"
+        },
+        {
+            "name":"ClickerDoEx",
+            "description":"a long project to build great things",
+            "link":"https://www.google.com",
+            "image": "project2"
         }
     ],
     "weirdWord":"okabe"

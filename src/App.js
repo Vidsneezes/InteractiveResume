@@ -36,6 +36,11 @@ class App extends Component {
     }
 
     let project = null;
+    if(Resume.projects){
+      project = (
+        <Project projects={Resume.projects} alt="default image"/>
+      );
+    }
     return (
       <div className="App">
         <Page title="Info">
@@ -48,7 +53,7 @@ class App extends Component {
           {workhistory}
         </Page>
         <Page title="Projects">
-          <Project image={images["default"]} alt="default image"/>
+          {project}
         </Page>
         <Page title="Education">
           <Education />
