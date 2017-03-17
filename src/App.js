@@ -34,6 +34,8 @@ class App extends Component {
           <WorkHistory workHistory={Resume.workhistory} />
       );
     }
+
+    let project = null;
     return (
       <div className="App">
         <Page title="Info">

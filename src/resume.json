@@ -36,5 +36,13 @@
             }
         ]
     },
+    "porjects":[
+        {
+            "name":"ClickerDo",
+            "description":"a long project to build great things",
+            "link":"https://www.google.com",
+            "image": "project1"
+        }
+    ],
     "weirdWord":"okabe"
 }
