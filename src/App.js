@@ -31,17 +31,23 @@ class App extends Component {
     let workhistory = null;
     if(Resume.workhistory){
       workhistory = (
-          <WorkHistory workHistory={Resume.workhistory} />
+          <WorkHistory data={Resume.workhistory} />
       );
     }
 
     let project = null;
     if(Resume.projects){
       project = (
-        <Project projects={Resume.projects} alt="default image"/>
+        <Project data={Resume.projects} alt="default image"/>
       );
     }
 
+    let education = null;
+    if(Resume.education){
+      education = (
+        <Education data={Resume.education} />
+      );
+    }
     return (
       <div className="App">
         <Page title="Info">

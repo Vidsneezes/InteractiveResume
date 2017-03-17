@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class WorkHistory extends Component {
   render() {
-    let workhistory = this.props.workHistory;
+    let workhistory = this.props.data;
     let workTable = null;
     if(workhistory){
        workTable = workhistory.work.map((item, i) => {

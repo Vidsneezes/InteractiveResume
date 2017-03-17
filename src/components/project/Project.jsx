@@ -8,7 +8,7 @@ class Project extends Component {
   }
 
   render() {
-    let projects = this.props.projects;
+    let projects = this.props.data;
     let projectDisplay = null;
     if(projects){
       projectDisplay = projects.map((project, i)=>{

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Education extends Component {
   render() {
-    let education = this.props.education;
+    let education = this.props.data;
     let educationDisplay = null;
     if(education){
       educationDisplay = education.map((element,i)=>{
