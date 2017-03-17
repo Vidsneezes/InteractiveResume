@@ -12,7 +12,8 @@ class Project extends Component {
     let projectDisplay = null;
     if(projects){
       projectDisplay = projects.map((project, i)=>{
-        <div>
+        return (
+        <div key={i+"dd"}>
           <div>
           <img src={this.images[project.image]} alt={this.props.alt} />
           </div>
@@ -21,7 +22,7 @@ class Project extends Component {
               <h5>{project.description}</h5>
               <a href={project.link}>Link to Project </a>
           </div>
-        </div>
+        </div>);
       });
     }
     return (
