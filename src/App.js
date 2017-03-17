@@ -48,6 +48,13 @@ class App extends Component {
         <Education data={Resume.education} />
       );
     }
+
+    let hobby = null;
+    if(Resume.hobby){
+      hobby = (
+        <Hobby data={Resume.hobby} />
+      );
+    }
     return (
       <div className="App">
         <Page title="Info">
@@ -63,10 +70,10 @@ class App extends Component {
           {project}
         </Page>
         <Page title="Education">
-          <Education />
+          {education}
         </Page>
         <Page title="Hobbies">
-          <Hobby />
+          {hobby}
         </Page>
         <Page>
           <Footer />

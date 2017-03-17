@@ -56,6 +56,18 @@
             "degree":"B.A. Computer Science",
             "startDate":"September 2011",
             "endDate":"April 2015"
+        },
+        {
+            "name":"University of La",
+            "degree":"B.A. Computer Science",
+            "startDate":"September 2011",
+            "endDate":"April 2015"
+        }
+    ],
+    "hobby":[
+        {
+            "name":"Dog Petting",
+            "description":"pet dogs like all the time"
         }
     ],
     "weirdWord":"okabe"
