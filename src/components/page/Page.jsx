@@ -11,6 +11,7 @@ class Page extends Component {
         <div>
             {this.props.children}
         </div>
+        <hr></hr>
       </div>
     );
   }
