@@ -69,9 +69,6 @@ class App extends Component {
         <Page title="Projects">
           {project}
         </Page>
-        <Page title="Education">
-          {education}
-        </Page>
         <Page title="Hobbies">
           {hobby}
         </Page>
