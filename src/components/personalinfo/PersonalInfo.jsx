@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./PersonalInfo.css"
 
 class PersonalInfo extends Component {
   render() {
@@ -10,7 +11,7 @@ class PersonalInfo extends Component {
       }
       var counter = 0;
       for(var keys in personalinfo.socialmedia){
-        socialMedia.push(<a key={counter} href={personalinfo.socialmedia[keys]}>{keys}</a>);
+        socialMedia.push(<span><a key={counter} href={personalinfo.socialmedia[keys]}>{keys}</a><p></p></span>);
         counter++;
       }      
     }
@@ -19,7 +20,7 @@ class PersonalInfo extends Component {
         <div className="personalinfo-intro"><p>Hello my className is oscar moresl, i'm a front end developer with a background
           in gamedesign/developmenet. Welcome to my resume here you will find</p>
         </div>
-        <div>
+        <div className="personalinfo-links">
           {socialMedia}
         </div>
       </div>

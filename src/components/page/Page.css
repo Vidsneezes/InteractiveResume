@@ -1,8 +1,9 @@
 .page {
     width: auto;
     margin: 0px 0px 12px;
-    text-align: center;
+    text-align: left;
     font-family: 'Asar', serif;
+    padding-left: 5%;
 }
 
 .page-intro {
