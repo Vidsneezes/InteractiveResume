@@ -1,0 +1,21 @@
+.workhistory {
+    padding-left: 2%;
+}
+
+.wh-place-position h2 {
+    margin-bottom: 0px;
+}
+
+.wh-place-position h3 {
+    margin-top: 0px;
+    margin-bottom: 1%;
+    padding-left: 1.2%;
+}
+
+.wh-date-description {
+    padding-left: 3.4%;
+}
+
+.wh-date-description h6 {
+    margin: 0px;
+}

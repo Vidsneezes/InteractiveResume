@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './style.css';
 
 class WorkHistory extends Component {
   render() {
@@ -8,13 +9,13 @@ class WorkHistory extends Component {
        workTable = workhistory.work.map((item, i) => {
          return( 
           <div key={i} className="workhistory-intro">
-            <span>
+            <span className="wh-place-position">
               <h2>{item.workplace}</h2>
               <h3>{item.position}</h3>
             </span>
-            <h6>{item.startdate}-{item.enddate}</h6>
-            <div>
-              <p>{item.jobdes}</p>
+            <div className="wh-date-description">
+              <h6>{item.startdate}-{item.enddate}</h6>
+              {item.jobdes}
             </div>
           </div>
          );
