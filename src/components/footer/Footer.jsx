@@ -8,9 +8,9 @@ class Footer extends Component {
             <h4>Updated March 2017</h4>
         </div>
         <div>
-            <a href="https://www.google.com">Twitter </a>
-            <a href="https://www.google.com">Github </a>
-            <a href="https://www.google.com">LinkedIn </a>
+            <a href="https://www.google.com">Twitter </a><br></br>
+            <a href="https://www.google.com">Github </a><br></br>
+            <a href="https://www.google.com">LinkedIn </a><br></br>
         </div>
       </div>
     );
